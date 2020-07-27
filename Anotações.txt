@@ -1,0 +1,14 @@
+gustavo - lider tecnico socio
+edu - socio de inovação
+
+back end - motor das aplicações phyton e mysql e nosql
+
+front - telinha java script biblioteca react
+mobile html css
+
+stack overflow - maior portal de duvidas para programador
+
+3 a 4 meses de estudos diarios necessarios para entregar projetos razoaveis.
+
+requisito - dedicação
+ 
