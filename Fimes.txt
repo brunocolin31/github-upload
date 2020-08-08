@@ -1,0 +1,73 @@
+1917
+Coringa
+Ford vs Ferrari
+
+
+ListaDeDesejosDeFilmes = ['Star Wars','1917','Ford vs Ferrari','Coringa','Batman Begins']
+print(ListaDeDesejosDeFilmes)
+print("========================")
+meuNovoFilme = input("Digite o nome do filme que você vai assistir")
+ListaDeDesejosDeFilmes.append(meuNovoFilme)
+print(ListaDeDesejosDeFilmes) 
+# AnoDoFilme = 2019
+# NotaDoFilme = 7.4
+ # FilmeDisponivel = False
+# if NotaDoFilme >= 7.0 and FilmeDisponivel == True:
+#     print('\nNome:',NomeDoFilme,'\nAno:', AnoDoFilme,'\nNota:', NotaDoFilme,'\nDisponibilidade:', FilmeDisponivel)
+# else:
+#     print('Nao quero assistir este filme')   
+
+
+
+append
+ListaDeDesejosDeFilmes = []
+print(type(ListaDeDesejosDeFilmes))
+ListaDeDesejosDeFilmes.append('Star Wars')
+ListaDeDesejosDeFilmes.append('Gente Grande')
+print(ListaDeDesejosDeFilmes)
+
+len
+ListaDeDesejosDeFilmes = []
+print(type(ListaDeDesejosDeFilmes))
+ListaDeDesejosDeFilmes.append('Star Wars')
+ListaDeDesejosDeFilmes.append('Gente Grande')
+print(len(ListaDeDesejosDeFilmes))
+
+remove
+ListaDeDesejosDeFilmes = []
+print(type(ListaDeDesejosDeFilmes))
+ListaDeDesejosDeFilmes.append('Star Wars')
+ListaDeDesejosDeFilmes.append('Gente Grande')
+print("Primeira Lista",ListaDeDesejosDeFilmes)
+ListaDeDesejosDeFilmes.remove('Star Wars')
+print("Segunda Lista",ListaDeDesejosDeFilmes)
+
+For
+ListaDeDesejosDeFilmes = []
+for filmeAtual  in range(6):
+    ListaDeDesejosDeFilmes.append(input("Quais os filmes que você que assistir?"))
+
+print(ListaDeDesejosDeFilmes)
+
+
+
+
+printar um embaixo do outro 
+
+ListaDeDesejosDeFilmes = []
+for filmeAtual  in range(6):
+    ListaDeDesejosDeFilmes.append(input("Quais os filmes que você quer assistir?"))
+
+for filmeAtual in ListaDeDesejosDeFilmes:
+    print(filmeAtual)
+
+
+
+    Enumerar as posições 
+
+    ListaDeDesejosDeFilmes = []
+for filmeAtual  in range(6):
+    ListaDeDesejosDeFilmes.append(input("Quais os filmes que você quer assistir?"))
+
+for filmeAtual in range(len(ListaDeDesejosDeFilmes)):
+    print(ListaDeDesejosDeFilmes[filmeAtual],'',filmeAtual)
